@@ -454,3 +454,22 @@
     height: 500px;
     background-color: #333;
 }
+
+
+/*---------返回顶部--------*/
+.backToTop{
+	width: 30px;
+	height: 50px;
+	background-color: red;
+    /*定位*/
+	position: fixed;
+	bottom: 100px;
+	left: 610px;
+	margin-left: 50%;
+	/*默认隐藏*/
+	display: none;
+  }
+  .backToTop img{
+	  width: 100%;
+	  height: 100%;
+  }
